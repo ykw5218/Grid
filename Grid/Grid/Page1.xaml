@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grid.Page1">
+    <ContentPage.Content>
+        <Grid RowSpacing="3" ColumnSpacing="5" BackgroundColor="black">
+            <Button Text="I" Grid.Row="0" Grid.Column="0" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ffb71c1c"
+                    Clicked="Go_Item"/>
+            <Button Text="My" Grid.Row="0" Grid.Column="1" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ffbf360c"
+                    Clicked="Go_Item"/>
+            <Button Text="You" Grid.Row="0" Grid.Column="2" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#fff57f17"
+                    Clicked="Go_Item"/>
+            <Button Text="Your" Grid.Row="0" Grid.Column="3" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff1b5e20"
+                    Clicked="Go_Item"/>
+            <Button Text="He" Grid.Row="1" Grid.Column="0" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff004d40"
+                    Clicked="Go_Item"/>
+            <Button Text="His" Grid.Row="1" Grid.Column="1" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff0d47a1"
+                    Clicked="Go_Item"/>
+            <Button Text="She" Grid.Row="1" Grid.Column="2" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff4a148c"
+                    Clicked="Go_Item"/>
+            <Button Text="Her" Grid.Row="1" Grid.Column="3" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff880e4f"
+                    Clicked="Go_Item"/>
+            <Button Text="We" Grid.Row="2" Grid.Column="0" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff1a237e"
+                    Clicked="Go_Item"/>
+            <Button Text="Our" Grid.Row="2" Grid.Column="1" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff33691e"
+                    Clicked="Go_Item"/>
+            <Button Text="They" Grid.Row="2" Grid.Column="2" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="White"
+                    Clicked="Go_Item"/>
+            <Button Text="Next Page" Grid.Row="2" Grid.Column="3" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff263238"
+                    Clicked="Go_NextPage"/>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
