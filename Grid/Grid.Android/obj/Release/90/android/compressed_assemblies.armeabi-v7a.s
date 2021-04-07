@@ -46,7 +46,7 @@
 
 	/* 2: Grid.dll */
 	/* uncompressed_file_size */
-	.long	26624
+	.long	33280
 	/* loaded */
 	.byte	0
 	/* data */
@@ -64,7 +64,7 @@
 
 	/* 4: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	1992704
+	.long	2006016
 	/* loaded */
 	.byte	0
 	/* data */
@@ -82,7 +82,7 @@
 
 	/* 6: System.Core.dll */
 	/* uncompressed_file_size */
-	.long	328192
+	.long	333824
 	/* loaded */
 	.byte	0
 	/* data */
@@ -478,7 +478,7 @@
 
 	/* 50: Xamarin.Essentials.dll */
 	/* uncompressed_file_size */
-	.long	25088
+	.long	34304
 	/* loaded */
 	.byte	0
 	/* data */

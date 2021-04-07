@@ -3,63 +3,85 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Grid.Page4">
     <ContentPage.Content>
-        <Grid RowSpacing="3" ColumnSpacing="5" BackgroundColor="black">
-            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="0" Grid.Column="0">
+        <Grid x:Name="Item" RowSpacing="3" ColumnSpacing="5" BackgroundColor="Black">
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="0" Grid.Column="1" BackgroundColor="Red">
                 <Image Source="monkey.jpg" Grid.Row="0" Grid.Column="0"></Image>
                 <Button Text="Monkey" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
-                    BackgroundColor="#ffb71c1c"
-                    Clicked="Go_Page3"/>
+                    BackgroundColor="Red"
+                    Clicked="Say_Monkey"/>
             </Grid>
-            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="0" Grid.Column="1">
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="0" Grid.Column="2" BackgroundColor="Orange">
                 <Image Source="elephant.jpg" Grid.Row="0" Grid.Column="0"></Image>
                 <Button Text="Elephant" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="Orange"
-                    Clicked="Go_Page5"/>
+                    Clicked="Say_Elephant"/>
             </Grid>
-            <Button Text="Gog" Grid.Row="0" Grid.Column="2" Margin="10" Padding="10"
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="0" Grid.Column="3" BackgroundColor="Yellow">
+                <Image Source="Dog.jpg" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Dog" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="Yellow"/>
-            <Button Text="Cat" Grid.Row="0" Grid.Column="3" Margin="10" Padding="10"
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="1" Grid.Column="0" BackgroundColor="Green">
+                <Image Source="cat.png" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Cat" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="Green"/>
-            <Button Text="Panda" Grid.Row="1" Grid.Column="0" Margin="10" Padding="10"
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="1" Grid.Column="1" BackgroundColor="#ff004d40">
+                <Image Source="panda.jpg" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Panda" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="#ff004d40"/>
-            <Button Text="Pig" Grid.Row="1" Grid.Column="1" Margin="10" Padding="10"
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="1" Grid.Column="2" BackgroundColor="#ff0d47a1">
+                <Image Source="pig.png" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Pig" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="#ff0d47a1"/>
-            <Button Text="Mouse" Grid.Row="1" Grid.Column="2" Margin="10" Padding="10"
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="1" Grid.Column="3" BackgroundColor="#ff4a148c">
+                <Image Source="mouse.png" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Mouse" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="#ff4a148c"/>
-            <Button Text="Cow" Grid.Row="1" Grid.Column="3" Margin="10" Padding="10"
-                    CornerRadius="20" 
-                    FontSize="Large" FontAttributes="Bold" 
-                    BackgroundColor="#ff880e4f"/>
-            <Button Text="Tiger" Grid.Row="2" Grid.Column="0" Margin="10" Padding="10"
-                    CornerRadius="20" 
-                    FontSize="Large" FontAttributes="Bold" 
-                    BackgroundColor="#ff1a237e"/>
-            <Button Text="Horse" Grid.Row="2" Grid.Column="1" Margin="10" Padding="10"
-                    CornerRadius="20" 
-                    FontSize="Large" FontAttributes="Bold" 
-                    BackgroundColor="#ff33691e"/>
-            <Button Text="Wolf" Grid.Row="2" Grid.Column="2" Margin="10" Padding="10"
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="2" Grid.Column="0" BackgroundColor="#ffffb300">
+                <Image Source="wolf.jpg" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Wolf" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
                     BackgroundColor="#ffffb300"/>
-            <Button Text="Next Page" Grid.Row="2" Grid.Column="3" Margin="10" Padding="10"
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="2" Grid.Column="1" BackgroundColor="#ff880e4f">
+                <Image Source="cow.jpg" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Cow" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
                     CornerRadius="20" 
                     FontSize="Large" FontAttributes="Bold" 
-                    BackgroundColor="#ff263238"/>
+                    BackgroundColor="#ff880e4f"/>
+            </Grid>
+            <Grid RowSpacing="2" ColumnSpacing="1" Grid.Row="2" Grid.Column="2" BackgroundColor="#ff1a237e">
+                <Image Source="tiger.jpg" Grid.Row="0" Grid.Column="0"></Image>
+                <Button Text="Tiger" Grid.Row="1" Grid.Column="0" Margin="1" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff1a237e"/>
+            </Grid>
+            <Button Text="Add" Grid.Row="2" Grid.Column="3" Margin="10" Padding="10"
+                    CornerRadius="20" 
+                    FontSize="Large" FontAttributes="Bold" 
+                    BackgroundColor="#ff33691e"
+                    Clicked="Add_button"/>
+            
 
         </Grid>
     </ContentPage.Content>
