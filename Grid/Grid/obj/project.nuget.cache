@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Ptt1f6/olkbihdLuxvzAhF6Yk2xItcRvUGJ4MQtxvgoVm20rcDO5RDoFIkdLf/wYPPkw084ocMDm45L+E7PKQ==",
+  "dgSpecHash": "k1XO9pEQlcQ2gltHyIseN0pyWW3XbO154/1pwA/JOVjLaLnebGsoxq/H3Kd9JoGEr9sbHq3wpUCZp/RCO4nKUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj",
+  "projectFilePath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PUMPK1nn\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\PUMPK1nn\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

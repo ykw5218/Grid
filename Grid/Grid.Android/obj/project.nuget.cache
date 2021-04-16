@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pph9vrNgw4/pp+vebUC2j/3YnN6M+Rl6T9pO5SKQNrCEGBkXG8D5lx2it20VRu/bW5ksAJnAaHW0avxz7+meEg==",
+  "dgSpecHash": "jlGfLfV1XhtC8KJ1Q72yxS101I0ZMxgj9ZBOhTWvEdm7leV7T+fDv/i9Q76KqakK3xHzHPZC868L0CrrEy3Cig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\Grid.Android.csproj",
+  "projectFilePath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\GridApplication.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

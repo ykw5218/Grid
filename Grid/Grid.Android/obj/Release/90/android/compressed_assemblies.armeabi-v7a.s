@@ -46,7 +46,7 @@
 
 	/* 2: Grid.dll */
 	/* uncompressed_file_size */
-	.long	33280
+	.long	62464
 	/* loaded */
 	.byte	0
 	/* data */

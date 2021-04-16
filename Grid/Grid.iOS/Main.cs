@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Grid.iOS
+namespace GridApplication.iOS
 {
     public class Application
     {

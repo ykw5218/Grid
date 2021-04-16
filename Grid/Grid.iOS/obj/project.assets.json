@@ -136,7 +136,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Grid/1.0.0": {
+      "GridApplication/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -144,10 +144,10 @@
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         }
       }
     },
@@ -286,7 +286,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Grid/1.0.0": {
+      "GridApplication/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -294,10 +294,10 @@
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         }
       }
     },
@@ -436,7 +436,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Grid/1.0.0": {
+      "GridApplication/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -444,10 +444,10 @@
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         }
       }
     },
@@ -586,7 +586,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Grid/1.0.0": {
+      "GridApplication/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -594,10 +594,10 @@
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         }
       }
     }
@@ -967,15 +967,15 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Grid/1.0.0": {
+    "GridApplication/1.0.0": {
       "type": "project",
-      "path": "../Grid/Grid.csproj",
-      "msbuildProject": "../Grid/Grid.csproj"
+      "path": "../Grid/GridApplication.csproj",
+      "msbuildProject": "../Grid/GridApplication.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "Grid >= 1.0.0",
+      "GridApplication >= 1.0.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1451"
     ]
@@ -987,9 +987,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.iOS\\Grid.iOS.csproj",
-      "projectName": "Grid.iOS",
-      "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.iOS\\Grid.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.iOS\\GridApplication.iOS.csproj",
+      "projectName": "GridApplication.iOS",
+      "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.iOS\\GridApplication.iOS.csproj",
       "packagesPath": "C:\\Users\\PUMPK1nn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.iOS\\obj\\",
       "projectStyle": "PackageReference",
@@ -1012,8 +1012,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj": {
-              "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj"
+            "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj": {
+              "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj"
             }
           }
         }

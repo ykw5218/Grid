@@ -7,7 +7,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Grid
+namespace GridApplication
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page4 : ContentPage
@@ -44,8 +44,8 @@ namespace Grid
                 Button n = new Button();
                 Item.Children.Add(n);
                 n.Text = "Zebra";
-                n.Margin = 10;
-                n.Padding = 10;
+                n.Margin = 0;
+                n.Padding = 0;
                 n.CornerRadius = 20;
                 n.Clicked += Say_Zebra;
             }

@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Grid.Page4.xaml", "Page4.xaml", typeof(global::Grid.Page4))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Grid.Page4.xaml", "Page4.xaml", typeof(global::GridApplication.Page4))]
 
-namespace Grid {
+namespace GridApplication {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Page4.xaml")]
@@ -20,9 +20,17 @@ namespace Grid {
         private global::Xamarin.Forms.Grid Item;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button Monkey;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Grid Cat;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page4));
             Item = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "Item");
+            Monkey = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "Monkey");
+            Cat = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "Cat");
         }
     }
 }

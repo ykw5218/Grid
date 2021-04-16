@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Grid
+namespace GridApplication
 {
     public partial class App : Application
     {

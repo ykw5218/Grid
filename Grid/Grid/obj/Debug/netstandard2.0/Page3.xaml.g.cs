@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Grid.Page3.xaml", "Page3.xaml", typeof(global::Grid.Page3))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Grid.Page3.xaml", "Page3.xaml", typeof(global::GridApplication.Page3))]
 
-namespace Grid {
+namespace GridApplication {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Page3.xaml")]

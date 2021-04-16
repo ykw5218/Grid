@@ -8,7 +8,7 @@ using System.Windows;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Grid
+namespace GridApplication
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page1 : ContentPage
@@ -27,10 +27,15 @@ namespace Grid
         {
             await Navigation.PushAsync(new Page2());
         }
+
+        private async void Change_style_to_large(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page7());
+        }
         
         async void OnDisplayAlertButtonClicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Alert", "This is an alert", "OK");
+            await DisplayAlert("Let me help you:", "Add: Click ADD will create a new button linked to the item page.\n\nHelp: Click HELP will give you instructions.\n\nStyle: Click STYLE will change the size of grid to LARGE.\n\nTitle: Click title buttons below will jump to the item page.", "Get It!");
         }
 
         async void OnDisplayAlertQuestionButtonClicked(object sender, EventArgs e)
@@ -39,7 +44,7 @@ namespace Grid
             if (response == true)
             {
                 Button n = new Button();
-                Title.Children.Add(n);
+                Title_medium.Children.Add(n);
                 n.Text = "New button";
                 n.Margin = 10;
                 n.Padding = 10;
@@ -54,7 +59,7 @@ namespace Grid
         private void Add_button(object sender, EventArgs e)
         {
             Button n = new Button();
-            Title.Children.Add(n);
+            Title_medium.Children.Add(n);
             n.Text = "New button";
             n.Margin = 10;
             n.Padding = 10;

@@ -16,3 +16,5 @@ C:\Users\PUMPK1nn\source\repos\Grid\Grid\Grid\obj\Debug\netstandard2.0\Page3.xam
 C:\Users\PUMPK1nn\source\repos\Grid\Grid\Grid\obj\Debug\netstandard2.0\Page4.xaml.g.cs
 C:\Users\PUMPK1nn\source\repos\Grid\Grid\Grid\obj\Debug\netstandard2.0\Page5.xaml.g.cs
 C:\Users\PUMPK1nn\source\repos\Grid\Grid\Grid\obj\Debug\netstandard2.0\Page6.xaml.g.cs
+C:\Users\PUMPK1nn\source\repos\Grid\Grid\Grid\obj\Debug\netstandard2.0\Page7.xaml.g.cs
+C:\Users\PUMPK1nn\source\repos\Grid\Grid\Grid\obj\Debug\netstandard2.0\Page8.xaml.g.cs

@@ -26,7 +26,7 @@
 
 	/* 2: Grid.dll */
 	/* uncompressed_file_size */
-	.word	33280
+	.word	62464
 	/* loaded */
 	.byte	0
 	/* data */

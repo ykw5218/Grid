@@ -10,7 +10,7 @@
 
 [assembly: global::Android.Runtime.ResourceDesignerAttribute("Grid.Droid.Resource", IsApplication=true)]
 
-namespace Grid.Droid
+namespace GridApplication.Droid
 {
 	
 	

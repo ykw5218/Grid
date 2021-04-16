@@ -784,7 +784,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Grid/1.0.0": {
+      "GridApplication/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -792,10 +792,10 @@
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Grid.dll": {}
+          "bin/placeholder/GridApplication.dll": {}
         }
       }
     }
@@ -1919,15 +1919,15 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Grid/1.0.0": {
+    "GridApplication/1.0.0": {
       "type": "project",
-      "path": "../Grid/Grid.csproj",
-      "msbuildProject": "../Grid/Grid.csproj"
+      "path": "../Grid/GridApplication.csproj",
+      "msbuildProject": "../Grid/GridApplication.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
-      "Grid >= 1.0.0",
+      "GridApplication >= 1.0.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1451"
     ]
@@ -1939,9 +1939,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\Grid.Android.csproj",
-      "projectName": "Grid.Android",
-      "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\Grid.Android.csproj",
+      "projectUniqueName": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\GridApplication.Android.csproj",
+      "projectName": "GridApplication.Android",
+      "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\GridApplication.Android.csproj",
       "packagesPath": "C:\\Users\\PUMPK1nn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid.Android\\obj\\",
       "projectStyle": "PackageReference",
@@ -1964,8 +1964,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj": {
-              "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj"
+            "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj": {
+              "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj"
             }
           }
         }

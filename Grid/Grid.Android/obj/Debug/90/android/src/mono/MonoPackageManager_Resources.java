@@ -4,7 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Grid.Android.dll" comes first in this list. */
 		"Grid.Android.dll",
 		"FormsViewGroup.dll",
-		"Grid.dll",
+		"GridApplication.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

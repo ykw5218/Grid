@@ -637,9 +637,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj",
-      "projectName": "Grid",
-      "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\Grid.csproj",
+      "projectUniqueName": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj",
+      "projectName": "GridApplication",
+      "projectPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\GridApplication.csproj",
       "packagesPath": "C:\\Users\\PUMPK1nn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PUMPK1nn\\source\\repos\\Grid\\Grid\\Grid\\obj\\",
       "projectStyle": "PackageReference",
